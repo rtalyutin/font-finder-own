@@ -27,9 +27,9 @@ const actions = {
         chrome.action.setIcon({
           tabId: tab.id,
           path: {
-            '16': '/data/icons/inspect/16.png',
-            '32': '/data/icons/inspect/32.png',
-            '48': '/data/icons/inspect/48.png'
+            '16': '/data/icons/text/16.png',
+            '32': '/data/icons/text/32.png',
+            '48': '/data/icons/text/48.png'
           }
         });
         const target = {
