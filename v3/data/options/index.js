@@ -58,5 +58,5 @@ document.getElementById('access').onclick = () => chrome.permissions.request({
 });
 
 document.getElementById('preview').onclick = () => chrome.tabs.create({
-  url: 'https://www.youtube.com/watch?v=CGI3Atdzt64'
+  url: '//'
 });

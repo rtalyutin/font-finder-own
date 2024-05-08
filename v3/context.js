@@ -74,7 +74,7 @@
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === 'tutorial') {
     chrome.tabs.create({
-      url: 'https://www.youtube.com/watch?v=CGI3Atdzt64'
+      url: '//'
     });
   }
   else if (info.menuItemId.startsWith('mode:')) {

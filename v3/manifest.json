@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Font Finder",
-  "version": "0.5.8",
-  "description": "__MSG_app_description__",
+  "name": "Finder Font",
+  "version": "0.1",
+  "description": "TREISA Chrome Extension",
   "default_locale": "en",
   "permissions": [
     "storage",

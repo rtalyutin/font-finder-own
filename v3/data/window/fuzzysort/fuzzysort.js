@@ -1,20 +1,3 @@
-// https://github.com/farzher/fuzzysort v2.0.0
-/*
-  SublimeText-like Fuzzy Search
-
-  fuzzysort.single('fs', 'Fuzzy Search') // {score: -16}
-  fuzzysort.single('test', 'test') // {score: 0}
-  fuzzysort.single('doesnt exist', 'target') // null
-
-  fuzzysort.go('mr', [{file:'Monitor.cpp'}, {file:'MeshRenderer.cpp'}], {key:'file'})
-  // [{score:-18, obj:{file:'MeshRenderer.cpp'}}, {score:-6009, obj:{file:'Monitor.cpp'}}]
-
-  fuzzysort.go('mr', ['Monitor.cpp', 'MeshRenderer.cpp'])
-  // [{score: -18, target: "MeshRenderer.cpp"}, {score: -6009, target: "Monitor.cpp"}]
-
-  fuzzysort.highlight(fuzzysort.single('fs', 'Fuzzy Search'), '<b>', '</b>')
-  // <b>F</b>uzzy <b>S</b>earch
-*/
 
 // UMD (Universal Module Definition) for fuzzysort
 ;((root, UMD) => {
